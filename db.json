@@ -1,11 +1,119 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+ Response: { Code: 200, Message: "Success" },
+  Data: {
+    MatchesCount: 177,
+    BidsCount: 0,
+    ActionCount: 177,
+    DeclinedCount: 0,
+    MatchStatus: 200,
+    ScoreStatus: 200,
+    SourceSections: {
+      "100": 100,
+      "200": 100,
+      "300": 200,
+      "400": 200,
+      "900": 300,
+      "500": 400,
+      "550": 400,
+      "600": 400,
+      "610": 400,
+      "650": 400,
+      "660": 400,
+      "700": 500
+    },
+    Offset: 0,
+    Count: 25,
+    TotalRecords: 177,
+    TotalFilteredRecords: 177,
+    Results: [
+      {
+        Carrier: {
+          Name: "COVENANT CARRIERS INC",
+          Status: "Active",
+          StatusCode: 100,
+          McNumber: "385341",
+          Id: "13268",
+          Rating: "A",
+          DwCarrierId: "126323",
+          IsNewMatch: false,
+          LoadCarrierMatchId: 0,
+          City: null,
+          State: null
+        },
+        Score: 32.04,
+        Source: ["500", "550", "600", "650"],
+        BidStatus: {
+          Status: "ActionRequired",
+          StatusCode: 100,
+          LastModified: null,
+          IsNewBid: false,
+          NewBidsCount: 0
+        },
+        Notes: { TotalNotesCount: 0, NewNoteCount: 0 },
+        Amount: { Amount: 0.0, AmountUpdatedAt: null },
+        Margin: 0.0,
+        Contact: { Name: "", Email: "", CarrierContactId: null },
+        Action: { SecondaryActions: null, Name: "AddBid", Code: 5010 },
+        Data: {
+          LoadPrimaryReference: null,
+          BidId: 0,
+          CarrierId: 13268,
+          LoadCarrierMatchId: 6394915,
+          CarrierContactId: null,
+          DwCarrierId: "126323",
+          LoadId: null,
+          UserId: null
+        },
+        City: "OLIVE BRANCH",
+        State: "MS",
+        MatchStatus: 0,
+        ScoreStatus: 0,
+        Bids: []
+      },
+      {
+        Carrier: {
+          Name: "Big Arms Inc",
+          Status: "Active",
+          StatusCode: 100,
+          McNumber: "748749",
+          Id: "1263",
+          Rating: "A",
+          DwCarrierId: "949512",
+          IsNewMatch: false,
+          LoadCarrierMatchId: 0,
+          City: null,
+          State: null
+        },
+        Score: 14.08,
+        Source: ["300", "600", "650"],
+        BidStatus: {
+          Status: "ActionRequired",
+          StatusCode: 100,
+          LastModified: null,
+          IsNewBid: false,
+          NewBidsCount: 0
+        },
+        Notes: { TotalNotesCount: 0, NewNoteCount: 0 },
+        Amount: { Amount: 0.0, AmountUpdatedAt: null },
+        Margin: 0.0,
+        Contact: { Name: "", Email: "", CarrierContactId: null },
+        Action: { SecondaryActions: null, Name: "AddBid", Code: 5010 },
+        Data: {
+          LoadPrimaryReference: null,
+          BidId: 0,
+          CarrierId: 1263,
+          LoadCarrierMatchId: 6394958,
+          CarrierContactId: null,
+          DwCarrierId: "949512",
+          LoadId: null,
+          UserId: null
+        },
+        City: "Frankfort",
+        State: "IL",
+        MatchStatus: 0,
+        ScoreStatus: 0,
+        Bids: []
+      }
+    ]
   }
 }
