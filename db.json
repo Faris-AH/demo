@@ -5,8 +5,8 @@
     "BidsCount": 0,
     "ActionCount": 177,
     "DeclinedCount": 0,
-    "MatchStatus": 200,
-    "ScoreStatus": 200,
+    "MatchStatus": 100,
+    "ScoreStatus": 100,
     "SourceSections": {
       "100": 100,
       "200": 100,
